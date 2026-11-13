@@ -1,0 +1,86 @@
+[
+  {
+    "id": "emergency-fund",
+    "title": "Building an emergency fund",
+    "source": "Consumer Financial Protection Bureau",
+    "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+    "text": "An emergency fund is money set aside for unexpected costs such as a car repair, a medical bill, or a gap in income. Saving even small amounts on a regular schedule builds the habit. Many people start with a small target, such as a few hundred dollars, then work toward covering several months of essential expenses. Keeping the money in a separate account makes it less tempting to spend."
+  },
+  {
+    "id": "hysa",
+    "title": "High-yield savings accounts and deposit insurance",
+    "source": "Federal Deposit Insurance Corporation",
+    "url": "https://www.fdic.gov/resources/deposit-insurance",
+    "text": "A high-yield savings account is a savings account that pays a higher interest rate than a typical savings account, often offered by online banks. At FDIC-insured banks, deposits are insured up to $250,000 per depositor, per insured bank, for each account ownership category. Before opening an account, check that the bank is FDIC-insured or, for credit unions, insured by the NCUA."
+  },
+  {
+    "id": "credit-score-factors",
+    "title": "What goes into a credit score",
+    "source": "Consumer Financial Protection Bureau",
+    "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+    "text": "Credit scores are calculated from the information in your credit reports. The most important factors are paying bills on time, how much of your available credit you are using (credit utilization), the length of your credit history, the types of credit you have, and how often you apply for new credit. Paying on time every month is one of the strongest ways to build a good score."
+  },
+  {
+    "id": "credit-utilization",
+    "title": "Credit utilization",
+    "source": "Consumer Financial Protection Bureau",
+    "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+    "text": "Credit utilization is the share of your total credit card limits that you are currently using. For example, a $300 balance on a card with a $1,000 limit is 30% utilization. Keeping utilization low, and paying the balance in full each month, generally helps a credit score and avoids interest charges."
+  },
+  {
+    "id": "start-credit",
+    "title": "Ways to start building credit",
+    "source": "Consumer Financial Protection Bureau",
+    "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+    "text": "People with no credit history can start with a secured credit card, which uses a cash deposit as the credit limit, or a credit-builder loan from a bank or credit union. Becoming an authorized user on a trusted family member's card can also add history, but the primary cardholder's late payments may affect you. Whatever you choose, use a small amount of credit and pay it on time."
+  },
+  {
+    "id": "free-credit-reports",
+    "title": "Checking your credit reports for free",
+    "source": "Federal Trade Commission",
+    "url": "https://consumer.ftc.gov/articles/free-credit-reports",
+    "text": "You can get free credit reports from the three nationwide credit bureaus, Equifax, Experian, and TransUnion, through AnnualCreditReport.com, the official site for free reports. Checking your own report does not hurt your score. Review it for accounts you do not recognize and dispute errors with the credit bureau."
+  },
+  {
+    "id": "roth-ira",
+    "title": "Roth IRA basics",
+    "source": "Internal Revenue Service",
+    "url": "https://www.irs.gov/retirement-plans/roth-iras",
+    "text": "A Roth IRA is an individual retirement account funded with money you have already paid taxes on. To contribute, you generally need earned income, such as wages from a job. Investments grow without being taxed, and qualified withdrawals in retirement are tax-free. There are yearly contribution limits and income limits set by the IRS, which change over time, so check IRS.gov for the current year."
+  },
+  {
+    "id": "what-is-a-stock",
+    "title": "What a stock is",
+    "source": "U.S. Securities and Exchange Commission, Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "text": "A stock is a share of ownership in a company. If the company grows and earns more, the value of the stock may rise, and some companies pay part of their profits to shareholders as dividends. Stock prices can also fall, and you can lose money. Owning a single company's stock is riskier than owning many companies at once."
+  },
+  {
+    "id": "index-funds-diversification",
+    "title": "Index funds and diversification",
+    "source": "U.S. Securities and Exchange Commission, Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-1",
+    "text": "Diversification means spreading money across many investments so one loss does not sink everything. An index fund is a mutual fund or exchange-traded fund that tries to match the performance of a market index, such as a broad stock index, by holding the companies in it. Index funds often have low fees. Fees matter because they are taken out every year and reduce long-term growth."
+  },
+  {
+    "id": "compound-interest",
+    "title": "Compound interest",
+    "source": "U.S. Securities and Exchange Commission, Investor.gov",
+    "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+    "text": "Compound interest means you earn returns not only on the money you put in but also on the returns it already earned. Over long periods this snowball effect can be large, which is why starting to save or invest early, even with small amounts, can make a big difference. Compounding also works against you when you carry high-interest debt."
+  },
+  {
+    "id": "budgeting",
+    "title": "Making a budget",
+    "source": "Consumer Financial Protection Bureau",
+    "url": "https://www.consumerfinance.gov/consumer-tools/money-as-you-grow/",
+    "text": "A budget is a plan for how you will use your income. Start by listing your monthly income and your expenses, separating needs like rent, food, and transportation from wants. Then decide how much goes to savings and debt payments. One common starting rule of thumb is to split take-home pay roughly into needs, wants, and savings, then adjust to fit your real life."
+  },
+  {
+    "id": "debt-payoff-methods",
+    "title": "Paying down debt: avalanche and snowball",
+    "source": "Consumer Financial Protection Bureau",
+    "url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
+    "text": "When you have several debts, always pay at least the minimum on each to avoid late fees and credit damage. With any extra money, the avalanche method targets the debt with the highest interest rate first, which usually saves the most money. The snowball method targets the smallest balance first, which can give quick wins that keep you motivated."
+  }
+]

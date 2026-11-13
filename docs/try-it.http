@@ -1,0 +1,64 @@
+### Open this file in VS Code with the "REST Client" extension installed.
+### Start the server first (Run and Debug -> "Run Legacy AI API"),
+### then click "Send Request" above any block below.
+
+### 1. Is the server alive?
+GET http://127.0.0.1:8000/health
+
+### 2. Ask the coach a question (LEARN)
+POST http://127.0.0.1:8000/coach/ask
+Content-Type: application/json
+
+{ "question": "What is a Roth IRA?" }
+
+### 3. Guardrail test: this should be politely blocked
+POST http://127.0.0.1:8000/coach/ask
+Content-Type: application/json
+
+{ "question": "Which stock should I buy this week?" }
+
+### 4. $50/month for 40 years at 7% (PLAN)
+POST http://127.0.0.1:8000/calc/compound-growth
+Content-Type: application/json
+
+{ "starting_amount": 0, "monthly_contribution": 50, "annual_return_rate": 0.07, "years": 40 }
+
+### 5. How long to save $1,000?
+POST http://127.0.0.1:8000/calc/months-to-goal
+Content-Type: application/json
+
+{ "goal_amount": 1000, "current_savings": 100, "monthly_saving": 75 }
+
+### 6. Credit utilization across two cards
+POST http://127.0.0.1:8000/calc/credit-utilization
+Content-Type: application/json
+
+{ "balances": [300, 150], "limits": [1000, 500] }
+
+### 7. Avalanche vs snowball (change "method" to compare)
+POST http://127.0.0.1:8000/calc/debt-payoff
+Content-Type: application/json
+
+{
+  "monthly_budget": 400,
+  "method": "avalanche",
+  "debts": [
+    { "name": "Store card", "balance": 500, "annual_rate": 0.28, "minimum_payment": 25 },
+    { "name": "Visa", "balance": 2000, "annual_rate": 0.22, "minimum_payment": 50 },
+    { "name": "Car loan", "balance": 4000, "annual_rate": 0.07, "minimum_payment": 120 }
+  ]
+}
+
+### 8. The coach proposes an action (ACT)
+POST http://127.0.0.1:8000/actions/propose
+Content-Type: application/json
+
+{ "user_id": "student-001", "type": "schedule_transfer",
+  "description": "Move $25 to savings every Friday", "amount": 25,
+  "reason": "At $25/week you reach your $1,000 starter fund in about 9 months." }
+
+### 9. The user approves it (simulated, no real money moves)
+POST http://127.0.0.1:8000/actions/1/approve
+
+### 10. See everything for this user
+GET http://127.0.0.1:8000/actions/student-001
