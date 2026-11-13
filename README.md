@@ -1,4 +1,5 @@
 # Legacy AI
+# Javarius Authur Youmans
 
 **An explainable, goal-driven AI financial literacy coach.**
 Senior capstone project by Javarius Youmans, Department of Mathematics and Computer Science, Claflin University.
